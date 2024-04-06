@@ -1,0 +1,47 @@
+
+.Destination-img img{
+    width: 49%;
+    height: 350px;
+    border-radius: 8px;
+}
+.Destination-img img:nth-child(2){
+    position: absolute;
+    top: -30px;
+    right: 0;
+}
+
+
+@media(max-width:760px){
+
+    .h1t{
+        font-size: 1.5rem;
+    }
+
+
+    .Destination-areas{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2.5rem;
+    }
+    .Destination-areas2{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 1.5rem;
+    }
+
+.Destination-desc{
+    width: 100%;
+}
+
+.Destination-img{
+    width: 100%;
+    margin: 1.8rem 0;
+}
+
+.Destination-img img{
+    height: 250px;
+}
+
+
+
+}

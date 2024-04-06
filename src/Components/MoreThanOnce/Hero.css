@@ -1,0 +1,44 @@
+/* .Hero{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: bisque;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover; */
+/* } */
+/* .txtdiv{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+} */
+/* .pc{
+    font-size: 1.3rem ;
+    color: white;
+    padding: 0.5rem 0 2rem 0;
+} */
+/* .hc{
+    font-size: 3rem;
+    font-weight: 800;
+    color: white;
+} */
+@media (max-width: 570px){
+    .pc{
+        padding: 0.3rem 0 1rem 0;
+    }
+    .hc{
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .buton{
+        font-size: 0.8rem;
+        padding: 0.5rem 1rem;
+    }
+
+
+}

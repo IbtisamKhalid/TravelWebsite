@@ -1,0 +1,114 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#im {
+    height: 350px;
+    opacity: 0.95;
+    width: 258px;
+    border-radius: 8px;
+}
+
+.main-pic-body {
+    display: block;
+    padding-bottom: 30px;
+
+}
+
+.img11{
+    margin-top: 50px;
+    display: flex;
+    margin-left: 20px;
+}
+
+.container {
+    margin-right: 15px;
+    height: 400px;
+    width: 258px;
+    overflow: hidden;
+    transition-duration: 1s;
+
+}
+.container:hover{
+    transform: scale(1.1);
+}
+.product-desc{
+    /* display: flex; */
+    height: 145px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    font-size: large;
+    background-color: rgba(300, 300, 300, 1);
+    position: relative;
+    transition-duration: 1s;
+    border: 2px solid black;
+    border-radius: 8px;
+    transform: translateY(-6rem);
+
+}
+.container:hover .im{
+    background-color: rgb(0, 0, 0);
+}
+.container:hover .product-desc{
+    transform: translateY(-12rem);
+}
+/* .product-desc .sp{
+    font-size: 15px;
+    font-style: italic;
+} */
+
+
+
+
+.divbtn{
+    text-align: center;
+    position: absolute;
+    transform: translateY(17rem);
+
+}
+.container:hover .btndiv1{
+    transform: translateY(-1rem);
+} 
+.btndiv1{
+    position: relative;
+    bottom: 270px;
+}
+.btndiv2{
+    position: relative;
+    bottom: 270px;}
+.container:hover .btndiv2{
+    transform: translateY(-1rem);
+}
+.btn{
+    /* color: rgb(201, 0, 0); */
+    background-color: transparent;
+    /* border: 1px solid rgb(131, 90, 90); */
+    transition: 0.5s;
+    border: none;
+}
+.divbtn .btngallery {
+    margin-bottom: 5px;
+}
+.btn-cart:hover, .btngallery:hover{
+    transform: scale(1.1);
+}
+.divbtn {
+    transition: 1s ;
+}
+
+.btn {
+    padding: 10px 20px;
+}
+
+.btngallery {
+    padding-left: 31px;
+    padding-right: 31px;
+    /* margin-top: 15px; */
+
+}
+
+

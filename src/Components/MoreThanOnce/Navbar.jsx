@@ -23,7 +23,7 @@ export default function Navbar() {
           sx={{ fontSize: "30px", fontWeight: "bold" }}
           className="navbar-logo"
         >
-          <Link to="/Home">Ibtisam Khalid</Link>
+          <Link to="/Home">Planex pvt limited</Link>
         </Typography>
         <ul className={classchange ? "nav-menu" : "nav-menu active"}>
           {MenuItems.map((item, index) => {

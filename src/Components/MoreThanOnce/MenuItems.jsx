@@ -6,7 +6,7 @@ import ContactMe from "../ContactMe";
 
 const MenuItems = [
   {
-    url: "/Home",
+    url: "/",
     componentTO: <Home />,
   },
   {
